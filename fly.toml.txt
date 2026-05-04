@@ -1,0 +1,8 @@
+app = "your-app-name"
+
+[[services]]
+protocol = "udp"
+internal_port = 27015
+
+[[services.ports]]
+port = 27015
